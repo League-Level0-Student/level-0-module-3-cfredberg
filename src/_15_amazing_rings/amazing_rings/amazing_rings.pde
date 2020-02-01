@@ -8,7 +8,7 @@ void setup(){
 }
 
 int x1 = 250;
-int x2 = 175;
+int x2 = 750;
 Boolean fob = true;
 Boolean fob1 = false;
 void draw(){
@@ -31,9 +31,9 @@ void draw(){
   }else if (x2 == 1000){
     fob1 = false;
   }
-  if (fob1 == false){
+  if (fob1 == true){
     x2++;
-  }else if (fob1 == true){
+  }else if (fob1 == false){
     x2--;
   }
 }
